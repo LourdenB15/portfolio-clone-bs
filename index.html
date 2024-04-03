@@ -22,11 +22,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     />
   </head>
-  <body style="background-color: black">
-    <div>
-      <header>
+  <body class="bg-light">
+    <div class="vh-100">
+      <div>
         <nav
-          class="border-bottom border-secondary navbar navbar-expand-lg bg-dark"
+          class="border-bottom border-secondary navbar navbar-expand-lg bg-dark mb-5"
         >
           <div class="container">
             <a class="navbar-brand text-light col-6" href="#"
@@ -54,25 +54,18 @@
                 <a class="nav-item nav-link text-light" href="#">Login</a>
               </div>
             </div>
-            <!-- <ul>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#education">Education</a>
-              </li>
-              <li>
-                <a onclick="logout()" href="#"
-                  ><i class="fa-solid fa-power-off"></i
-                ></a>
-              </li>
-            </ul> -->
           </div>
         </nav>
-        <section id="about">
-          <div class="wrapper">
-            <div class="img"><img src="images/den-p.png" alt="Denious" /></div>
-            <div class="intro">
+        <section class="container g-1">
+          <div class="row gx-5">
+            <img
+              class="img-thumbnail bg-dark col-sm-12 col-lg-6"
+              src="images/den-p.png"
+              alt="Denious"
+            />
+            <div
+              class="col-sm-12 col-lg-6 text-dark d-flex flex-column justify-content-center"
+            >
               <h1>Den</h1>
               <h3>"An Aspiring Web Developer"</h3>
               <p>
@@ -89,8 +82,26 @@
             </div>
           </div>
         </section>
-      </header>
+      </div>
+      <footer class="footer text-center mt-5 bg-dark p-2">
+        <div class="container">
+          <div class="social-icons mb-1">
+            <a href="#" class="facebook text-light h3"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="#" class="twitter text-light h3"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="linkedin text-light h3"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" class="instagram text-light h3"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <p class="text-light">&copy;2024 Denious. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
   </body>
 </html>
